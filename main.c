@@ -9,10 +9,10 @@
 
 int main(int argc, char * argv[]) {
     
-    printf("argc is %d\n",argc);
-    int i,N;
-    for(i=1;i<argc;i++){
-        printf("arg %d: %s\n",i,argv[i]);
+  printf("argc is %d\n",argc);
+  int i,N;
+  for(i=1;i<argc;i++){
+      printf("arg %d: %s\n",i,argv[i]);
         
     }
     
